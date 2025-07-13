@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="25dp"
+    android:paddingLeft="30dp"
+    android:background="@color/white"
+    android:paddingRight="30dp"
+    android:orientation="vertical"
+    tools:context="MainActivity2">
+
+
+    <TextView
+        android:id="@+id/gen"
+        android:paddingTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="1. Select Gender"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:fontFamily="@font/poppins_medium"/>
+
+    <RadioGroup
+        android:id="@+id/genderGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/black"
+        android:orientation="vertical">
+
+        <RadioButton
+            android:id="@+id/rb1"
+            android:layout_width="match_parent"
+            android:layout_height="59dp"
+            android:text="Female"
+            android:buttonTint="@color/black"
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+
+        <RadioButton
+            android:id="@+id/rb2"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:buttonTint="@color/black"
+            android:textColor="@color/black"
+            android:text="Male" />
+    </RadioGroup>
+    <TextView
+        android:id="@+id/old"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="2. How old are you?"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        android:paddingTop="15dp"
+        android:textStyle="bold"
+        android:fontFamily="@font/poppins_medium"/>
+
+    <EditText
+        android:id="@+id/ip1"
+        android:layout_width="match_parent"
+        android:layout_height="69dp"
+        android:ems="10"
+        android:hint="Enter age"
+        android:textColorHint="@color/drkbl"
+        android:textStyle="italic"
+        android:textColor="@android:color/black"
+        android:backgroundTint="@color/black"
+        android:inputType="number" />
+
+    <TextView
+        android:id="@+id/height"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="3. What is your height?"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        android:paddingTop="15dp"
+        android:textStyle="bold"
+        android:fontFamily="@font/poppins_medium"/>
+
+    <EditText
+        android:id="@+id/ip2"
+        android:layout_width="match_parent"
+        android:layout_height="76dp"
+        android:ems="10"
+        android:hint="In meters"
+        android:textColorHint="@color/drkbl"
+        android:textStyle="italic"
+        android:textColor="@android:color/black"
+        android:backgroundTint="@color/black"
+        android:inputType="numberDecimal" />
+
+    <TextView
+        android:id="@+id/weight"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="4. What is your weight?"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        android:paddingTop="15dp"
+        android:textStyle="bold"
+        android:fontFamily="@font/poppins_medium"/>
+
+    <EditText
+        android:id="@+id/ip3"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:ems="10"
+        android:hint="In kilograms"
+        android:textColorHint="@color/drkbl"
+        android:textStyle="italic"
+        android:backgroundTint="@color/black"
+        android:textColor="@android:color/black"
+        android:inputType="numberDecimal" />
+
+
+    <Button
+        android:id="@+id/cta2"
+        android:layout_marginTop="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Calculate Now"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:fontFamily="@font/poppins_medium"
+        android:backgroundTint="@color/drkbl"/>
+
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Result :"
+        android:textSize="30sp"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:fontFamily="@font/poppins_medium"/>
+
+    <TextView
+        android:id="@+id/display"
+        android:layout_width="match_parent"
+        android:layout_height="117dp"
+        android:text=""
+        android:layout_marginTop="20dp"
+        android:textSize="25sp"
+        android:textStyle="normal" />
+
+
+</LinearLayout>
+
+
+
