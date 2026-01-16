@@ -35,24 +35,11 @@ app/src/main/
   java/com/example/project1/
     - MainActivity1.kt    (Entry Activity)
     - MainActivity2.kt    (Logic & Calculation Activity)
-
   res/
     layout/
       - activity_main1.xml   (Welcome UI)
       - activity_main2.xml   (Input/Result UI)
-
-    values/ - colors.xml           (Custom colors: bl2, drkbl, etc.)
-
-    font/ - Poppins font family
-
-## Installation & Setup
-*Clone the Repo:
- Bash
- git clone [https://github.com/yourusername/BMI-Calculator.git](https://github.com/yourusername/BMI-Calculator.git)
-*Open in Android Studio:
- Sync Gradle files and ensure SDK 31+ is installed.
-*Required Resources:
- Add a @drawable/background image to your project.
- Ensure @font/poppins_medium is present in your font resources.
-*Run:
- Deploy to an emulator or physical Android device.
+    values/ 
+      - colors.xml           (Custom colors: bl2, drkbl, etc.)
+    font/ 
+      - Poppins font family
