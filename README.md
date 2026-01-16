@@ -41,13 +41,9 @@ app/src/main/
       - activity_main1.xml   (Welcome UI)
       - activity_main2.xml   (Input/Result UI)
 
-    values/
-      - colors.xml           (Custom colors: bl2, drkbl, etc.)
+    values/ - colors.xml           (Custom colors: bl2, drkbl, etc.)
 
-    font/
-      - Poppins font family
-
-
+    font/ - Poppins font family
 
 ## Installation & Setup
 *Clone the Repo:
