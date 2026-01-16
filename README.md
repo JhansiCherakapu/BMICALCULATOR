@@ -31,16 +31,23 @@ The app uses the following logic to determine health status:
 * Architecture: Activity-based navigation using Intents.
 
 ## 📂 Project Structure
+Project Structure
+
 app/src/main/
-├── java/com/example/project1/
-│   ├── MainActivity1.kt    # Entry Activity
-│   └── MainActivity2.kt    # Logic & Calculation Activity
-└── res/
-    ├── layout/
-    │   ├── activity_main1.xml  # Welcome UI
-    │   └── activity_main2.xml  # Input/Result UI
-    ├── values/colors.xml       # Custom colors (bl2, drkbl, etc.)
-    └── font/                   # Poppins font family
+  java/com/example/project1/
+    - MainActivity1.kt    (Entry Activity)
+    - MainActivity2.kt    (Logic & Calculation Activity)
+
+res/
+    layout/
+      - activity_main1.xml   (Welcome UI)
+      - activity_main2.xml   (Input/Result UI)
+
+    values/
+      - colors.xml           (Custom colors: bl2, drkbl, etc.)
+
+    font/
+      - Poppins font family
 
 ## Installation & Setup
 *Clone the Repo:
